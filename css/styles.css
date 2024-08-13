@@ -1,33 +1,47 @@
       /* Remove the navbar's default margin-bottom and rounded borders */
-    .navbar {
+    body{
+        background-color: rgba(0, 0, 0, 0.89);
+    }
+      .navbar {
         margin-bottom: 0;
         border-radius: 0;
     }
+    .jumbotron{
+        height: 91vh;
+        padding: 420px ;
+        background-image: url('/frontend/images/bkg.jpg');
+        background-size: cover;     
+        color: aliceblue;  
+        align-self: center;
+    }
+    .mensagem{
+        background-color: rgba(19, 17, 17, 0.692);
+        padding: 30px;
+        border-radius: 15px;
+    }
     .conteudo{
         width: 100vw;
-       height: 85.6vh;
+        height: 85.6vh;
         display: flex;
         background-color: rgb(60, 60, 71);
       
     }
     .sidebar{ 
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: 10px;
         width: 20%;  
         color: aliceblue;        
        
     }
-    .main{    
+    .main{  
         width: 60%;
+        margin: 10px;
        
     }
     /*meio do site*/
-    .main-title{
-        padding: 15px;
+    .main-title{    
         color: aliceblue;
     }
-    .main-text{
-        padding: 15px;
+    .main-text{       
         color: aliceblue;
         font-size: larger;
     }
@@ -42,9 +56,47 @@
     footer {
 
         background-color: #0f0e0ee5;
-        padding: 25px;
+        padding: 40px;
         color: aliceblue;
     }
+.developer{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.developer a{
+    text-decoration: none;
+    font-family: cursive;
 
+}
+.wrapper{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 50px
+}
 
+/*Letreiro animado teste*/
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 7s infinite alternate;
+	stroke-width: 2;
+	stroke: #B3AE17;
+	font-size: 30px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(179,174,23,0); stroke: rgba(179,174,23,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(179,174,23,0); stroke: rgba(179,174,23,1); }
+	80%  {fill: rgba(179,174,23,0); stroke: rgba(179,174,23,1); stroke-width: 3; }
+	100% {
+		fill: rgba(179,174,23,1); stroke: rgba(179,174,23,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
