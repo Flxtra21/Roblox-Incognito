@@ -70,7 +70,9 @@
     }
     /* Add a gray background color and some padding to the footer */
     footer {
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: #0f0e0ee5;
         padding: 40px;
         color: aliceblue;
