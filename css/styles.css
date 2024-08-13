@@ -1,0 +1,50 @@
+      /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+    .conteudo{
+        width: 100vw;
+       height: 85.6vh;
+        display: flex;
+        background-color: rgb(60, 60, 71);
+      
+    }
+    .sidebar{ 
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 20%;  
+        color: aliceblue;        
+       
+    }
+    .main{    
+        width: 60%;
+       
+    }
+    /*meio do site*/
+    .main-title{
+        padding: 15px;
+        color: aliceblue;
+    }
+    .main-text{
+        padding: 15px;
+        color: aliceblue;
+        font-size: larger;
+    }
+    .principais{
+        display: flex;
+    }
+    .video{
+        margin: 5px;
+        border-radius: 10px;
+    }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+
+        background-color: #0f0e0ee5;
+        padding: 25px;
+        color: aliceblue;
+    }
+
+
+
