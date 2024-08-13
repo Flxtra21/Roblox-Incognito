@@ -1,39 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="/frontend/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Chat Roblox Family</title>
 </head>
+
 <body>
+    <!--Barra de navegação-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--letreiro animado-->
+                <div class="wrapper">
+                    <svg>
+                        <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                            Roblox Family-x4
+                        </text>
+                    </svg>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="/index.html">Página Inicial</a></li>
+                    <li><a href="/sobre.html">Sobre Nós</a></li>
+                    <li><a href="/frontend/index.html">Bate Papo</a></li>
+                    <li><a href="/galeria.html">Nossos Vídeos</a></li>
+                    <li><a href="/contato.html">Fale Conosco</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Fim da Barra de navegação-->
+
     <section class="container">
         <section class="login">
             <h2>Login</h2>
-            <form  class="login-form">
+            <form class="login-form">
                 <input type="text" class="login-input" placeholder="Seu Nome" required>
                 <button type="submit" class="login-button">Entrar</button>
-            </form></section>
+            </form>
+        </section>
 
-            <section class="chat">
-                <section class="chat-messages">  
+        <section class="chat">
+            <section class="chat-messages">
 
                 <!-- <div class="message-self"></div>
                      <div class="Admin"></div>
 
                 <div class="message-other"></div>-->
-        
-                </section>
-                <form  class="chat-form">
-                    <input type="text" class="chat-input" placeholder="Digite aqui sua mensagem" required>
-                    <button type="submit" class="chat-button"><span class="material-symbols-outlined">
-                        send
-                        </span></button>
-                </form>
+
             </section>
+            <form class="chat-form">
+                <input type="text" class="chat-input" placeholder="Digite aqui sua mensagem" required>
+                <button type="submit" class="chat-button"><span class="material-symbols-outlined">
+                        send
+                    </span></button>
+            </form>
+        </section>
     </section>
-    
+
     <script src="/frontend/js/script.js"></script>
 </body>
+
 </html>
