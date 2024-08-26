@@ -103,7 +103,6 @@ body{
     width: 80%;
     height: 40px;
 }
-
 .chat-button{
     width: 40px;
     height: 40px;
@@ -128,7 +127,6 @@ body{
     border-radius: 10px 10px 0px 10px;
     align-self: flex-end;
 }
-
 .message-other{
     display: flex;
     flex-direction: column;
@@ -145,3 +143,5 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+
+/*fim mensagem do chat*/
